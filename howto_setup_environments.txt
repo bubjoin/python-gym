@@ -1,0 +1,57 @@
+<For Windows>
+1. Create a repository on github
+
+2. Open the cmd terminal or powershell
+3. Make a local directory in Documents
+4. mkdir python_gym
+5. cd python_gym
+
+6. python -m venv .venv
+7. .\.venv\Scripts\activate
+
+8. pip install jupyterlab
+9. pip install numpy
+10. pip install matplotlib -U
+11. -U, Upgrade to the newest version
+12. Use pip only when you are in the (.venv)
+
+13. Use IDE like VScode(code .)
+14. Find the interpreter in the .venv
+15. Open a terminal and check if the venv activated
+
+16. Windows key and arrow keys(left or right) to dock the window
+
+17. git init
+18. Create .gitignore file, and add .venv/
+19. Write README.md
+20. # for the largest heading
+21. two(or more) spaces for changing line
+22. **words** for bold
+23. See https://medium.com/analytics-vidhya/writing-github-readme-e593f278a796
+
+24. git add .gitignore
+25. git commit -m ".gitignore"
+26. git branch -M main
+27. git remote add origin https://github.com/bubjoin/python_gym.git
+28. git push -u origin main
+
+29. git status
+30. git add README.md or git add .
+31. git commit -m "README.md"
+32. git push
+33. git log
+
+34. git reflog
+35. Do not use it, git commit --amend
+36. Do not use it, git push -f
+37. Do not use it after push, git reset
+38. git revert ID of commit
+39. git push
+40. Be careful, git revert removes file
+
+41. Choose a right license(e.g MIT License) 
+42. And add LICENSE.txt to the repository using git
+
+43. Create a file, like python_gym.ipynb
+44. And check if the interpreter is right one
+45. Enjoy your project

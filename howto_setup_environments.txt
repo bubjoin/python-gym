@@ -55,3 +55,21 @@
 43. Create a file, like python_gym.ipynb
 44. And check if the interpreter is right one
 45. Enjoy your project
+
+46. Setting another computer, 
+47. mkdir python_gym
+48. cd python_gym (empty directory)
+49. git clone https://github.com/bubjoin/python_gym.git .
+50. The last character dot(.) is for the current directory
+51. python -m venv .venv
+52. pip install ...
+53. Setting PowerShell to activate the virtual environment,
+54. Execute the PowerShell as administrator
+55. Get-ExecutionPolicy
+56. If the existing setting is Restricted,
+57. Set-ExecutionPolicy RemoteSigned
+58. PowerShell execution policies
+59. AllSigned, Bypass, Default, RemoteSigned, Restricted, 
+60. Undefined, Unrestricted
+61. Becareful, malicious scripts could be executed in the policies above
+62. except Restricted
